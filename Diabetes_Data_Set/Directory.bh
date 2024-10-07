@@ -1,0 +1,25 @@
+diabetes-predictive-analysis/
+│
+├── data/
+│   ├── raw/               # Original dataset (e.g., diabetes.csv)
+│   ├── processed/          # Cleaned and processed data for analysis
+│   └── external/           # Any external data sources (if needed)
+│
+├── notebooks/              # Jupyter notebooks for exploratory data analysis (EDA) and experiments
+│   └── EDA.ipynb           # Notebook for initial exploration, visualizations
+│
+├── src/
+│   ├── data_preprocessing.py  # Data cleaning and preprocessing scripts
+│   ├── feature_engineering.py # Scripts for feature extraction and transformation
+│   ├── train_model.py         # Script for model training and evaluation
+│   ├── utils.py               # Utility functions (e.g., data loading, plotting)
+│   └── config.py              # Configuration settings (e.g., file paths, model parameters)
+│
+├── models/               # Saved machine learning models (e.g., trained models in pickle format)
+│   └── model_v1.pkl
+│
+├── reports/              # Documentation, reports, or presentations
+│   └── results.html       # Final report or summary of findings
+│
+├── requirements.txt       # List of Python dependencies
+└── README.md              # Description and instructions for the project
