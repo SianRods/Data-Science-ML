@@ -54,9 +54,19 @@ Here’s what it means:
 
 ### Interpretation:
 
-- **Normal insulin response**: Indicates that the pancreas is producing enough insulin to help regulate blood sugar levels efficiently.
-- **Elevated insulin levels** (hyperinsulinemia): Suggest insulin resistance, a condition where the body’s cells are less responsive to insulin, requiring the pancreas to produce more insulin to manage blood sugar levels. This is often associated with conditions like pre-diabetes, type 2 diabetes, and metabolic syndrome.
-- **Low insulin levels**: May indicate insulin deficiency, seen in type 1 diabetes or advanced type 2 diabetes.
+Problematic/Abnormal Ranges:
+Mildly Elevated (Insulin Resistance or Hyperinsulinemia):
+
+60–100 μU/mL: Indicates some degree of insulin resistance.
+Moderately Elevated (Insulin Resistance):
+
+100–200 μU/mL: Likely suggests more pronounced insulin resistance, commonly seen in prediabetes or type 2 diabetes.
+Severely Elevated:
+
+Above 200 μU/mL: Suggests severe insulin resistance or hyperinsulinemia, which is often associated with advanced metabolic syndrome or type 2 diabetes.
+Extremely High (e.g., 400 μU/mL or more):
+
+This would indicate a serious metabolic issue, such as severe insulin resistance or even insulinoma (a rare tumor of the pancreas that produces excess insulin).
 
 The 2-hour insulin level, alongside glucose measurements, helps assess how the body responds to sugar and how effectively insulin is being used.
 
