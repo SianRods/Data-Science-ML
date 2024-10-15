@@ -186,8 +186,9 @@ Model Performance for Test Set
 -----------------------------------------------------------------------------------------------------------------------
 3. Using the Feature Importance Columns 
 
-Dropped Columns : 'gender_Female', 'gender_Male','Partner_No', 'Partner_Yes','Contract_One year','OnlineSecurity_Yes',
+Dropped Columns :    'OnlineSecurity_Yes',
                     'TechSupport_Yes','DeviceProtection_No','Dependents_No', 'Dependents_Yes',, 
                     'OnlineBackup_No',  'MultipleLines_No','StreamingMovies_No internet service',
                      'StreamingTV_No internet service','TechSupport_No internet service',   'DeviceProtection_No internet service'
-                    'OnlineSecurity_No internet service', 'OnlineBackup_No internet service','MultipleLines_No phone service'
+                    'OnlineSecurity_No internet service', 'OnlineBackup_No internet service','MultipleLines_No phone service',
+                     'StreamingMovies_No','OnlineBackup_Yes',   'DeviceProtection_Yes',
