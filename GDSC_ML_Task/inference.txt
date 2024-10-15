@@ -1,0 +1,193 @@
+-------------------------------------------------------------------------------------------------------------------
+1. Model Training 
+Z-Score Standardization used -- z-Score
+Tunning - Yes
+
+Columns Included -- ALL
+
+Logistic Regression
+Model Performance for Training Set 
+-Accuracy : 0.8089
+-F1-Score : 0.8039
+-Precision : 0.6643
+-Recall : 0.5679
+-ROC-AUC Score : 0.7320
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7882
+-F1-Score : 0.7815
+-Precision : 0.6226
+-Recall : 0.5160
+-ROC-AUC Score : 0.7014
+******************************
+
+
+Decision Tree
+Model Performance for Training Set 
+-Accuracy : 0.8160
+-F1-Score : 0.8157
+-Precision : 0.6552
+-Recall : 0.6495
+-ROC-AUC Score : 0.7629
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7726
+-F1-Score : 0.7720
+-Precision : 0.5734
+-Recall : 0.5642
+-ROC-AUC Score : 0.7061
+******************************
+
+
+Random Forest Classifier
+Model Performance for Training Set 
+-Accuracy : 0.8588
+-F1-Score : 0.8544
+-Precision : 0.7829
+-Recall : 0.6488
+-ROC-AUC Score : 0.7918
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7896
+-F1-Score : 0.7796
+-Precision : 0.6373
+-Recall : 0.4840
+-ROC-AUC Score : 0.6921
+******************************
+
+
+XG Boost
+Model Performance for Training Set 
+-Accuracy : 0.8183
+-F1-Score : 0.8117
+-Precision : 0.6956
+-Recall : 0.5625
+-ROC-AUC Score : 0.7367
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7903
+-F1-Score : 0.7810
+-Precision : 0.6367
+-Recall : 0.4920
+-ROC-AUC Score : 0.6952
+******************************
+
+
+Support Vector Machine
+Model Performance for Training Set 
+-Accuracy : 0.7979
+-F1-Score : 0.7839
+-Precision : 0.6772
+-Recall : 0.4575
+-ROC-AUC Score : 0.6893
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7811
+-F1-Score : 0.7635
+-Precision : 0.6387
+-Recall : 0.4064
+-ROC-AUC Score : 0.6616
+******************************
+
+------------------------------------------------------------------------------------------------------------------------------
+2. Model Training
+Dropped Columns : 'PaperlessBilling_No', 'PaperlessBilling_Yes',
+        PaymentMethod_Bank transfer (automatic)',
+       'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+
+The Above Mentioned Columns Surely Won't Influence the way Outcomes changes
+
+Logistic Regression
+Model Performance for Training Set 
+-Accuracy : 0.8050
+-F1-Score : 0.7996
+-Precision : 0.6567
+-Recall : 0.5579
+-ROC-AUC Score : 0.7261
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7832
+-F1-Score : 0.7747
+-Precision : 0.6162
+-Recall : 0.4893
+-ROC-AUC Score : 0.6895
+******************************
+
+
+Decision Tree
+Model Performance for Training Set 
+-Accuracy : 0.8114
+-F1-Score : 0.8055
+-Precision : 0.6744
+-Recall : 0.5612
+-ROC-AUC Score : 0.7316
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7832
+-F1-Score : 0.7749
+-Precision : 0.6154
+-Recall : 0.4920
+-ROC-AUC Score : 0.6903
+******************************
+
+
+Random Forest Classifier
+Model Performance for Training Set 
+-Accuracy : 0.8539
+-F1-Score : 0.8498
+-Precision : 0.7660
+-Recall : 0.6482
+-ROC-AUC Score : 0.7882
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7974
+-F1-Score : 0.7879
+-Precision : 0.6561
+-Recall : 0.5000
+-ROC-AUC Score : 0.7026
+******************************
+
+
+XG Boost
+Model Performance for Training Set 
+-Accuracy : 0.8128
+-F1-Score : 0.8062
+-Precision : 0.6820
+-Recall : 0.5538
+-ROC-AUC Score : 0.7302
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7939
+-F1-Score : 0.7836
+-Precision : 0.6500
+-Recall : 0.4866
+-ROC-AUC Score : 0.6959
+******************************
+
+
+Support Vector Machine
+Model Performance for Training Set 
+-Accuracy : 0.8100
+-F1-Score : 0.8008
+-Precision : 0.6882
+-Recall : 0.5211
+-ROC-AUC Score : 0.7178
+-----------------------------------------------------------------
+Model Performance for Test Set 
+-Accuracy : 0.7868
+-F1-Score : 0.7744
+-Precision : 0.6381
+-Recall : 0.4572
+-ROC-AUC Score : 0.6817
+******************************
+
+
+-----------------------------------------------------------------------------------------------------------------------
+3. Using the Feature Importance Columns 
+
+Dropped Columns : 'gender_Female', 'gender_Male','Partner_No', 'Partner_Yes','Contract_One year','OnlineSecurity_Yes',
+                    'TechSupport_Yes','DeviceProtection_No','Dependents_No', 'Dependents_Yes',, 
+                    'OnlineBackup_No',  'MultipleLines_No','StreamingMovies_No internet service',
+                     'StreamingTV_No internet service','TechSupport_No internet service',   'DeviceProtection_No internet service'
+                    'OnlineSecurity_No internet service', 'OnlineBackup_No internet service','MultipleLines_No phone service'
